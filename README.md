@@ -148,6 +148,7 @@ Copy frontend files to Nginx web root:
 
 ```bash
 sudo cp -r * /usr/share/nginx/html/
+sudo cp -r main/* /usr/share/nginx/html/
 ```
 
 Create Nginx config:
